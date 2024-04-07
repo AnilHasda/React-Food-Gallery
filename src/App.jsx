@@ -17,8 +17,10 @@ function App(){
   return(
     <>
     <p className="text-2xl font-bold text-orange-700 text-center my-10">Food Gallery React Project</p>
+  <div className='h-auto w-auto bg-gray-800'>
     <TopSection value={{image,setStore,check}}/>
     <HeroSection value={{store}}/>
+    </div>
     </>
   )
 }
